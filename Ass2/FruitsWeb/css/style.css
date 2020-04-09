@@ -1,0 +1,198 @@
+#home {
+	background: url("../images/back1.jpg");
+	width: 100%;
+	height: 640px;
+	opacity: 0.9;
+}
+
+body {
+	margin: 0;
+}
+
+#home h1 {
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	font-size: 3em;
+	padding-top: 300px;
+	margin: 0;
+}
+
+#home h3 {
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+nav ul {
+	display: inline;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin:15px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 1rem;
+	font-weight: 800;
+	font-family: sans-serif;
+}
+
+nav {
+	float: right;
+	display: inline;
+	padding-top: 30px;
+	margin-right: 100px;
+	position: sticky;
+}
+
+header img {
+	display: inline;
+	margin-left: 20px;
+}
+
+header {
+	position: sticky;
+}
+
+#my-btn {
+	padding: 8px 25px 8px 25px;
+	background: #e77724;
+	color : white;
+	font-weight: bold;
+	display: inline;
+	font-family: sans-serif;
+	border-radius: 25px;
+}
+
+footer {
+	height: 100px;
+	background: #e77724;
+}
+
+footer p {
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+}
+
+#services .card {
+	width: 250px;
+	height:300px;
+	box-shadow:
+	  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+	  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+	  0 12.5px 10px rgba(0, 0, 0, 0.06),
+	  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+	  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+	  0 100px 80px rgba(0, 0, 0, 0.12);
+	  margin: 20px;
+}
+
+.card-header {
+	width : 250px;
+	height: 150px;
+}
+
+.card-body p {
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+
+#services {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.center {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
+}
+
+table {
+	margin: auto;
+}
+
+#main-login {
+	background: #00c6ff;
+	background: -webkit-linear-gradient(to right, #00c6ff, #0072ff);
+	background: linear-gradient(to right, #00c6ff, #0072ff);
+	height: 630px;
+	margin-top: 0px;
+}
+
+body {
+	margin: 0px;
+}
+
+.card {
+	background: white;
+	margin: auto;
+	min-height: 70%;
+	width: 40%;
+	border-radius: 10px;
+	position: relative;
+	top: 10%;
+	text-align: center;
+	padding: 20px;
+	padding-top: 40px;
+}
+
+.card h1 {
+	margin-top: 20px;
+	display: inline;
+	text-align: center;
+	font-family: arial;
+}
+
+input {
+	padding: 15px;
+	margin: 15px;
+	border-radius: 50px;
+	background: #e6eff7;
+	color: #898a8c;
+	width: 60%;
+	border: none;
+}
+
+.info-label {
+	font-weight: bold;
+	font-size: 0.8rem;
+	font-family: arial;
+	color: #f06960;
+	text-align: left;
+	display: block;
+	position: relative;
+	left: 19%;
+}
+
+
+#loginbtn {
+	background: #21bfff;
+	color: white;
+	padding: 15px;
+	border: none;
+	border-radius: 50px;
+	width: 32%;
+	margin-top: 20px;
+}
+
+.input-field {
+	background: #e6eff7 url("checked.svg") no-repeat;
+	background-size: 25px 25px;
+	background-position: calc(100% - 10px) center;
+}

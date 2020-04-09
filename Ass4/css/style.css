@@ -1,0 +1,79 @@
+#main {
+	background: #00c6ff;
+	background: -webkit-linear-gradient(to right, #00c6ff, #0072ff);
+	background: linear-gradient(to right, #00c6ff, #0072ff);
+	height: 630px;
+	margin-top: 0px;
+}
+
+body {
+	margin: 0px;
+}
+
+.card {
+	background: white;
+	margin: auto;
+	min-height: 70%;
+	width: 40%;
+	border-radius: 10px;
+	position: relative;
+	top: 10%;
+	text-align: center;
+	padding: 20px;
+	padding-top: 40px;
+}
+
+.card h1 {
+	margin-top: 20px;
+	display: inline;
+	text-align: center;
+	font-family: arial;
+}
+
+input {
+	padding: 15px;
+	margin: 15px;
+	border-radius: 50px;
+	background: #e6eff7;
+	color: #898a8c;
+	width: 60%;
+	border: none;
+}
+
+.info-label {
+	font-weight: bold;
+	font-size: 0.8rem;
+	font-family: arial;
+	color: #f06960;
+	text-align: left;
+	display: block;
+	position: relative;
+	left: 19%;
+}
+
+.info-response {
+	font-weight: bold;
+	font-size: 0.8rem;
+	font-family: arial;
+	color: black;
+	text-align: center;
+	display: block;
+	position: relative;
+	left: 19%;
+}
+
+#loginbtn {
+	background: #21bfff;
+	color: white;
+	padding: 15px;
+	border: none;
+	border-radius: 50px;
+	width: 32%;
+	margin-top: 20px;
+}
+
+.input-field {
+	background: #e6eff7 url("../images/checked.svg") no-repeat;
+	background-size: 25px 25px;
+	background-position: calc(100% - 10px) center;
+}

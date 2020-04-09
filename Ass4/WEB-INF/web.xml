@@ -1,0 +1,12 @@
+<web-app>  
+	<servlet>  
+		<servlet-name>hello</servlet-name>  
+		<servlet-class>DemoServlet</servlet-class>  
+	</servlet>  
+	  
+	<servlet-mapping>  
+		<http-method>POST</http-method>
+		<servlet-name>hello</servlet-name>  
+		<url-pattern>/welcome</url-pattern>  
+	</servlet-mapping>  
+</web-app>  

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">	
+	<link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+	<div id="main">
+		<div class="card">
+			<h1>Welcome Back</h1>
+			<form id="login-form" style="padding-top: 80px;">
+				<input type="text" id="loginid" name="loginid" placeholder="Login Id"/><br>
+				<label class="info-label" id="label_loginid"></label>
+				<input type="password" name="password" id="password" placeholder="Password"/><br>
+				<label class="info-label" id="label_password"></label>
+				<button id="loginbtn" type="button">Login</button><br/><br>
+				<center><div id="result" style="font-weight: bold;font-family: Arial;font-size: 0.9rem;"></div></center>
+			</form>
+		</div>
+	</div>
+	<script src="./js/main.js"></script>
+	<script src="./js/jquery.js"></script>
+	<script>
+      $('#loginbtn').click(function(event) {
+      	var a = document.getElementById('label_loginid').innerHTML;
+      	var b = document.getElementById('label_password').innerHTML;
+
+      	if(a == "" && b == "") {
+      		console.log($(this).serialize());
+	        $("#result").html("Logging in...");
+	        event.preventDefault();
+	        var loginid = document.getElementById('loginid').value;
+	        var password = document.getElementById('password').value;
+	        $.ajax({
+	          type:"POST",
+	          url:"./checklogin.php",
+	          data:{"loginid":loginid,"password":password},
+	          success:function(data)
+	          {
+	          	console.log(data);
+	            if(data=="success")
+	            {
+	              $("#result").html("Login Successful");
+	              setTimeout(function(){
+	                window.location="./home.html";
+	              },1200);
+	            }
+	            else
+	            {
+	              $("#result").html("Login Failed");
+	            }
+	          }
+	        });
+      	}
+      });
+    </script>
+</body>
+</html>

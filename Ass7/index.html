@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular JS - Calculator Example</title>
+</head>
+<body>
+	<h2>Angular JS - Calculator Example</h2>
+	<div ng-app="CalculatorApplication" ng-controller="controller">
+		<input type="text" ng-model="num1" placeholder="Enter first number" /><br/><br/>
+		<input type="text" ng-model="num2" placeholder="Enter second number" /><br/><br/>
+		<select ng-model="op">
+			<option value="" disabled selected>Select option</option>
+			<option>+</option>
+			<option>-</option>
+			<option>*</option>
+			<option>/</option>
+		</select><br/><br/>
+		<p>{{result()}}</p>
+	</div>
+	<script src= "js/angular.min.js"></script>
+	<script src= "js/calculator.js"></script>
+</body>
+</html>
