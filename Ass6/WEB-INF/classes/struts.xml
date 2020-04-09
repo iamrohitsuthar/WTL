@@ -3,7 +3,7 @@
 <struts>
 <package name="default" extends="struts-default">
 
-<action name="cal" class="com.javatpoint.Cal" method="calculate">
+<action name="cal" class="com.rohitsuthar.Cal" method="calculate">
 <result name="success">welcome.jsp</result>
 </action>
 

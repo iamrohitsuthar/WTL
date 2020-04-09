@@ -1,4 +1,4 @@
-package com.javatpoint;
+package com.rohitsuthar;
 import com.opensymphony.xwork2.ActionSupport; 
 
 public class Cal extends ActionSupport {
